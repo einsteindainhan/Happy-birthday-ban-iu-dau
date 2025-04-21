@@ -49,7 +49,7 @@ theTime.add({
 	update: function(percent) {
 		var thePercent = Math.round(percent.progress);
 		// Nội dung của nút bên dưới
-		document.querySelector('.container .sup').innerHTML= "Tim anh đang đập nhanh " + (thePercent+899);
+		document.querySelector('.container .sup').innerHTML= "Tim em đang đập nhanh " + (thePercent+899);
 	}
 });
 theTime.add({
@@ -192,8 +192,5 @@ cantho.insertAdjacentHTML('afterend', '<div class="author mt-5"><div class="row"
 
 // Phần popup khi bạn nhấn vào nút "Nhịp tim của anh"
 document.querySelector('.Description .modal-title').innerHTML = '<i class="far fa-comment-alt"></i>&nbsp;Nhịp tim như vậy là tại vì:';
-document.querySelector('.Description .modal-body').innerHTML = 'Anh thích em đó <i class="fas fa-heart"></i> ';
+document.querySelector('.Description .modal-body').innerHTML = 'Anh đang nhìn em đó! Ngại ghê🤭🤭🤭 <i class="fas fa-heart"></i> ';
 var author = document.querySelector('.author .me');author.style.opacity = "0.5";
-
-author.innerHTML = "Mọi thắc mắc bạn có thể liên hệ<a href='https://www.facebook.com/PhungQuocDinh/'>Quốc Định<a>";
-author.style.opacity = "0";
